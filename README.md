@@ -11,9 +11,9 @@ Memilih konstanta yang bergantung pada antena array mana yang sedang aktif. Alte
 
 #### checkMTL.m
 Mengecek nilai MTL (Minimum Trigger Level) untuk front beam angle dan side beam angle. Terdapat 3 alternatif keluaran.
-1 = Nilai beam pada sudut terlalu lemah untuk trigger interogator.
-2 = Control level lebih besar daripada Main level, sehingga Interogator tidak akan ditrigger.
-3 = Main level lebih besar daripada Control level, sehingga Interogator akan ditrigger.
+- 1 = Nilai beam pada sudut terlalu lemah untuk trigger interogator.
+- 2 = Control level lebih besar daripada Main level, sehingga Interogator tidak akan ditrigger.
+- 3 = Main level lebih besar daripada Control level, sehingga Interogator akan ditrigger.
 
 #### dBconverter.m
 Melakukan konversi dari skala linear ke decibels. Jika masukan adalah Watt, maka keluaran adalah dBW. Jika masukan adalah miliwatt, maka keluaran adalah dBm.
@@ -59,10 +59,10 @@ Menghitung nilai thermal noise pada target.
 
 #### trigSLS.m
 Fungsi ini akan menentukan kondisi trigger berdasarkan SLS (side lobe suppression). Terdapat 4 kemungkinan keluaran:
-1 : Nilai Beam pada sudut terlalu lemah untuk mentrigger transponder.
-2 : SLS dipastikan sedang beraksi, transponder tidak akan ditrigger.
-3 : SLS berada pada area yang tidak jelas, transponder mungkin akan ditrigger
-4 : Punch through, transponder akan ditrigger.
+- 1 : Nilai Beam pada sudut terlalu lemah untuk mentrigger transponder.
+- 2 : SLS dipastikan sedang beraksi, transponder tidak akan ditrigger.
+- 3 : SLS berada pada area yang tidak jelas, transponder mungkin akan ditrigger
+- 4 : Punch through, transponder akan ditrigger.
 
 #### twoRayProp.m
 Menghitung Link budget dengan persamaan propagasi Two-Ray untuk uplink dan downlink. Terdapat dua perhitungan untuk uplink/downlink yaitu: link Main dan Control.
