@@ -1,5 +1,5 @@
 # ReproIFF-E-scan
-Code(s) by Tora Lutnaes from his/her thesis "Probability of Positive Identification with an IFF E-scan System"
+Code(s) by Tora Lutnaes from thesis "Probability of Positive Identification with an IFF E-scan System"
 
 ## Summary Fungsi
 
